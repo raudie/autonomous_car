@@ -21,15 +21,10 @@ void setup() {
 void loop() {
 
   center();
-  forward(25, 3);     // Go forward at 10% for 2 seconds
+  left();
+  forward(25, 20);     // Go forward at 10% for 2 seconds
   delay(500);
-  right();       // Go right at 10% for 2 seconds
-  forward(25,5);
-  delay(500);
-  center();
-  forward(25, 3);
-  delay(500);
-  
+
   //left();       // Go right at 10% for 2 seconds
   //delay(500);
 
