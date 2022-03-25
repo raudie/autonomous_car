@@ -80,5 +80,5 @@ void center(){
 ///rn delaty is 3 seconds so it will turn then wait 3 seconds
 void left(){
   myservo.writeMicroseconds(1100); //Dont do to strong, it could break stuff.
-  delay(3000);
+  delay(3000); 
 }
